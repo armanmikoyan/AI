@@ -1,4 +1,2 @@
-fetch("/").then((d) => {
-  console.log(d);
-});
-
+const container = document.getElementById("container");
+console.log(container);
