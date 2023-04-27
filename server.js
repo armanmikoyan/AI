@@ -20,7 +20,7 @@ app.listen(3000, (err) => {
 
 app.use(express.urlencoded({ extended: false }));
 
-app.set("view engine", "ejs");
+app.set("view xengine", "ejs");
 
 let data;
 
